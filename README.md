@@ -25,3 +25,11 @@
 ## Coming soon support Windows machine 
 
 ![Image](https://raw.githubusercontent.com/Jieyab89/Simple-encryption-with-C/master/win.PNG)
+
+## Coming soon update 
+
+1. Change wallpaper 
+2. Add count down
+3. Add keys 
+4. Support Windows 
+5. Anything 
