@@ -1,3 +1,6 @@
+## Description 
+
+Simple encryption using C and php, this project 100% not real ransomware. Just simple custom encryption for learning
 
 ## How to use
 
@@ -32,7 +35,8 @@ Getting system information, example in windows systeminfo
 
 3. Creating folder "test_folder"
 4. Run "php gen.php"
-5. Enjoy
+5. ./loli [option]
+6. Enjoy
 
 ## Result 
 
