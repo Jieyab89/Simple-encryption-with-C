@@ -4,12 +4,32 @@
 ## Requirement
 
 1. Install libcurl-dev
+
+>  
+> sudo apt install curl 
+> 
+
 2. Install lshw
+
+> 
+> sudo apt-get install lshw 
+> 
+
+Getting system information, example in windows systeminfo 
 
 ## Usage
 
 1. Replace API_ENDPOINT with your own HTTP API endpoint
-2. Compile "gcc -o loli test.c -lcurl"
+> 
+> #define API_ENDPOINT "your endpoint/api.php" 
+
+
+2. Compile
+
+> 
+>  gcc -o loli test.c -lcurl
+>
+
 3. Creating folder "test_folder"
 4. Run "php gen.php"
 5. Enjoy
